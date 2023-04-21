@@ -13,7 +13,7 @@ module.exports = {
       keyframes: {
         scan: {
           
-          "100%": {transform: 'translateY(50000%)' },
+          "100%": {transform: 'translateY(0,100vh)' },
         },
       },
     },
