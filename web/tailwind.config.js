@@ -8,7 +8,7 @@ module.exports = {
         background: "#121B08"
       },
       animation: {
-        'scanner': " scan 1s linear infinite",
+        'scanner': " scan 30s linear infinite",
       },
       keyframes: {
         scan: {
