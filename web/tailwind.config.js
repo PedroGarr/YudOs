@@ -4,16 +4,16 @@ module.exports = {
   content: ["./src/**/*.tsx"],
   theme: {
     extend: {
-      colors:{
+      colors: {
         background: "#121B08"
       },
       animation: {
-        'scanner' : " scan 10s linear infinite",
+        'scanner': " scan 1s linear infinite",
       },
       keyframes: {
         scan: {
-          
-          "100%": {transform: 'translateY(0,100vh)' },
+          "0%": { transform: 'translateY(0vh)' },
+          "100%": { transform: 'translateY(100vh)' },
         },
       },
     },
